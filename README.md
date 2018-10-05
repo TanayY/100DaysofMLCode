@@ -108,3 +108,11 @@ Applied it for predicting body weight using just the brain weight.
 Made this by following @sirajraval 's 1st video in his intro Deep Learning series.
 
 #100DaysofMLCode .
+
+
+## DAY 13  :
+I set up my github and uploaded all my work done till Day 12.
+
+All ML Codes are available as .ipynb file.
+
+Pls do contribute.
