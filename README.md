@@ -116,3 +116,11 @@ I set up my github and uploaded all my work done till Day 12.
 All ML Codes are available as .ipynb file.
 
 Pls do contribute.
+
+
+## DAY 14 : 
+Started to read an online book named Neural Networks and Deep Learning by Michael Nielsen.
+
+Learnt about perceptron -- a type of artificial Neuron.
+
+#100DaysofMLCode .
