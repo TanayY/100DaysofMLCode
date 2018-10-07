@@ -124,3 +124,11 @@ Started to read an online book named Neural Networks and Deep Learning by Michae
 Learnt about perceptron -- a type of artificial Neuron.
 
 #100DaysofMLCode .
+
+
+## DAY 15 : 
+Learnt about the Sigmoid Neuron and how it is similar to a perceptron.
+
+A sigmoid Neuron is also known as a logistic Neuron and is another type of an artificial neuron, which has the self learning functionality.
+
+#100DaysofMLCode .
