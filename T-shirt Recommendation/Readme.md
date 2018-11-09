@@ -16,7 +16,10 @@ The basic libraries used in making of this system are :
 
 The following steps make up the whole system :
 
-1] Creating a bag of words
+1] Creating a bag of words and finding Euledian Distance between every title 
+2] Creating a TF-IDF system and then finding Eucledian Distance between every title
+3] Using the VGG16 pre-trained Neural Network to do image comparison and then applying the Eucledian distance method.
+4] Finally merging all the above methods and giving weights to all of the above methods and finding the best solution.
 
 ```diff
 + this will be highlighted in green
