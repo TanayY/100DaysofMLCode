@@ -350,3 +350,7 @@ Udacity gave all the assignments in python 2 format so had to do some research t
 The course didn't go deep into SVM's but I hope to learn it from the Math of Intelligence series by @sirajraval .
 
 #100DaysofMLCode
+
+'''
+This is sample code
+'''
