@@ -355,12 +355,3 @@ The course didn't go deep into SVM's but I hope to learn it from the Math of Int
 This is sample code
 ```
 
-<a class="github-button"
-   href="{{ https://www.instagram.com/tanay_y/ }}"
-   title="{{ Insta }}"
-   data-icon="{{ octicon }}"
-   data-size="{{ size }}"
-   data-show-count="{{ show count }}"
-   data-text="{{ text }}"
-   aria-label="{{ aria label }}"
-   >{{ Insta }}</a>
