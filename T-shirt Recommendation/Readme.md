@@ -117,8 +117,8 @@ The first thing is to storing the preprocessed data in a pandas data-frame :
 data = pd.read_pickle('pickels/16k_apperal_data_preprocessed')
 ```
 
-Following are some utility functions used to plot graphs and images : 
- #### **Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.**
+Following are some utility functions used to plot graphs and images : <br/>
+ #### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
 ```python
 # Utility Functions which we will use through the rest of the workshop.
 
