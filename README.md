@@ -132,3 +132,221 @@ Learnt about the Sigmoid Neuron and how it is similar to a perceptron.
 A sigmoid Neuron is also known as a logistic Neuron and is another type of an artificial neuron, which has the self learning functionality.
 
 #100DaysofMLCode .
+
+## DAY 16 :
+Continuing with the book -- Neural Networks and Deep Learning by Michael Nielsen. 
+
+#100DaysofMLCode .
+
+## DAY 17 :
+Tried to make my first Neural Network by following @sirajraval 's deep learning series.
+
+There were some errors. 
+Will check them out tomorrow.
+
+#100DaysofMLCode .
+
+## DAY 18 :
+Got my first neural network working by following @sirajraval 's second video in his Intro to Deep Learning Series.
+
+Corrected the errors from yesterday's code.
+
+Find the code to my first Neural Net on my GitHub (link in bio). 
+
+#100DaysofMLCode .
+
+## DAY 19 :
+Started learning how to classify handwritten digits using a feed forward neural network by following the book ' Neural Networks and deep learning ' by Michael Nielsen.
+
+Learnt how feed forward neural nets are better than recurrent neural nets.
+
+Understood the basic neural network for classifying handwritten digits.
+
+#100DaysofMLCode .
+
+## DAY 20 :
+Started learning how to make a simple Neural Network to classify handwritten digits. 
+Basically the neural network will have 3 layers --> 1 input, 1 hidden and 1 output.
+
+The weights and biases of the layers will be decided using the gradient descent algorithm.
+
+The cost function will determine the loss or accuracy of the neural networks. 
+
+#100DaysofMLCode .
+
+## DAY 21 :
+Moving ahead with gradient descent.....
+.
+.
+.
+#100DaysofMLCode .
+
+## DAY 22 :
+
+Finally starting with the code to recognise handwritten digits. I will be using MNIST dataset with 60,000 images as training data and 10,000 images as testing data.
+
+I will use Gradient descent to get the weights and biases for my Neural Network.
+
+Hope to complete the code by tomorrow.
+
+#100DaysofMLCode .
+
+## DAY 23 :
+The Handwritten Digits Recognition code does not seem to work so easily.
+
+But I hope to make it work soon.
+
+#100DaysofMLCode 
+
+## DAY 24 :
+Got the handwritten digits recognition code working by following the book neural networks and deep learning by Michael Nielsen.
+
+Did the same using tensorflow by following @sirajraval 's tutorial.
+
+Got more than 90% accuracy for both the codes. 
+Unfortunately I couldn't make it for accepting user input and predicting the digit. But I will be working on it.
+
+For now it trains on the training data and compares the predicted result with the test data and gives the accuracy.
+
+#100DaysofMLCode 
+
+## DAY 25 :
+Started with the Intro to Machine Learning Course by @udacity as suggested by @sirajraval in his Machine Learning in 3 months video.
+
+Learnt the basics and the first two lessons were a revision for me. The were all about supervised and unsupervised learning.
+
+Learnt about Naive Bayes implementation using the scikit-learn library.
+
+Hope to learn a lot from this course.
+
+#100DaysofMLCode 
+
+## DAY 26 :
+Continuing with @udacity 's course.... #100DaysofMLCode 
+
+## DAY 27 :
+Started learning about Support Vector Machines from @udacity . Made my first SVM using scikit-learn
+
+#100DaysofMLCode 
+
+## DAY 28 :
+Learnt about non-linear SVM's. Also learnt about an awesome trick known as the Kernel trick which magically transforms a linear seperator into a non linear seperator.
+
+@udacity 's Intro to ML course is really great and helpful. I recommend other wizards to take this course if you are a beginner.
+
+#100DaysofMLCode 
+
+## DAY 29 :
+Went a little deep into decision trees by following @udacity 's Intro to ML course.
+
+#100DaysofMLCode 
+
+## DAY 30 :
+I came across a very great article on medium which has all the best Machine Learning Cheat Sheets.
+
+Read about the Scikit-Learn Cheat Sheet.
+
+It is very well formatted and detailed.
+
+I recommend all fellow wizards to read it and share.[CLICK HERE FOR THE LINK](https://l.instagram.com/?u=https%3A%2F%2Flink.medium.com%2FldHHGCiZiR&e=ATOePu4lU9aA199YvYx2CX7lNb-yhJWJNrz8sUVfwmeoWdBr0uzEH7i2vu3kXRWqquzp8jT5Rb9g6V9a)
+
+It is the best thing that I have come across in my Machine Learning Journey.
+
+## DAY 31 :
+Revised the T-Shirt Recommendation System that I had made as an assignment for a workshop by @appliedaicourse in my vacations.
+
+I completed the assignment successfully and earned a certificate for it too.
+
+I used libraries like pandas, scikit-learn, keras, tensorflow, matplotlib, etc.
+
+I used techniques like TF-IDF, bag of words, word2vec for text processing and the VGG16 Neural Network for image processing.
+
+#100DaysofMLCode
+
+## DAY 32 :
+Again a bit of Decision Tree coding from @udacity 's course.. ..
+..
+.. 
+#100DaysofMLCode
+
+## DAY 33 :
+Got a revision of the handwritten digit recognition system that I made by following the book Neural Networks and Deep Learning by Michael Nielsen.
+
+The system only measures accuracy from the given set of training data and test data.
+
+I wasn't able to give my own input to the system. I will soon be updating it on my GitHub.
+Any help with it will be great.
+
+I saw an awesome clip on youtube depicting the handwritten digits neural network in an animated format.[See it here](https://www.youtube.com/watch?v=3JQ3hYko51Y&t=38s)
+
+#100DaysofMLCode
+
+## DAY 34-35 :
+Applied Google's Deep Dream code by following @sirajraval 's 5th video in his Python for Data Science series.
+
+I first downloaded Google's Inception model, then created a tensorflow session where I imported the inception model graph.
+
+Then I picked a layer out of all the 59 layers and enhanced the image. 
+Applied Gradient Ascent on the layer iteratively and got the Deep Dreamed Image.
+
+#100DaysofMLCode
+
+## DAY 36 :
+Learnt about Genetic Programming by following @sirajraval 's 6th video in his Python for data science series. 
+Genetic programming basically chooses the best ML model to solve a problem and find an optimal solution.
+
+There are basically three steps in genetic programming :
+1) Selection
+2) Crossover 
+3) Mutation
+
+This genetic algorithm will help classify of a given energy is gamma radiation or not.
+
+The program uses tpot (genetic programming library), scikit-learn, numpy and pandas.
+
+#100DaysofMLCode
+
+## DAY 37 :
+Not much today. Continuing with @udacity 's Intro to ML course.
+
+#100DaysofMLCode
+
+## DAY 38 :
+Back after 2 day's break.... Started with the Math of Intelligence series by @sirajraval .
+
+Learnt about how we can train a model with labelled data by just using y=mx+b. It involved decreasing the error of the prediction by using gradient descent.
+
+The whole series will not use any ML library and will involve making of ML algorithms from scratch.
+
+This is a great way to get into the math of Machine Learning.
+
+#100DaysofMLCode
+
+## DAY 39 :
+Sometimes if you are lucky you get a lot of great data and sometimes you don't. 
+What do you do when you have less amounts of labelled data ? --> You apply Support Vector Machines (SVM's). 😎
+
+SVM's are great when you want to perform supervised classification problems.
+
+What SVM's basically do is that the create the best hyperplane that is at equal distance from all classes of data.
+
+Suppose you have data with two features then your hyperplane will be a line, but if your data has 400 features then your hyperplane will be a 399 dimensional figure.
+
+SVM's are normally applied to linear data but can also be applied to non-linear data by using a trick known as the Kernel trick.
+
+SVM's are great for classification but can also be used for regression, finding outliers, etc.
+
+I learnt all of this from @sirajraval 's 2nd video in his The Math of Intelligence series.
+
+#100DaysofMLCode
+
+## DAY 40 :
+Done with SVM's on Udacity.
+
+@udacity 's Intro to ML course has really great assignments and they involve lots of challenging questions.
+
+Udacity gave all the assignments in python 2 format so had to do some research to get it all in python 3.
+
+The course didn't go deep into SVM's but I hope to learn it from the Math of Intelligence series by @sirajraval .
+
+#100DaysofMLCode
