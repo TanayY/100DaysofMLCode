@@ -1,3 +1,5 @@
+# Note --> Readme is not completely updated yet. Stay Tuned.
+
 ## T-Shirt Recommendation System
 
 In this blog I will take you through the steps that I went through while making the T-shirt Recommendation System.
