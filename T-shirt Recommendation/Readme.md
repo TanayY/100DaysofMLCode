@@ -119,7 +119,7 @@ data = pd.read_pickle('pickels/16k_apperal_data_preprocessed')
 
 Following are some utility functions used to plot graphs and images : <br/>
 
-### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
+#### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
 
 ```python
 # Utility Functions which we will use through the rest of the workshop.
@@ -245,5 +245,5 @@ def get_result(doc_id, content_a, content_b, url, model):
  ```
  You will have to copy this code to give a visual output.<br/>
 
-### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
+#### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
 
