@@ -352,7 +352,5 @@ The course didn't go deep into SVM's but I hope to learn it from the Math of Int
 #100DaysofMLCode
 
 '''
-
 This is sample code
-
 '''
