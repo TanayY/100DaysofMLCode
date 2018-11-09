@@ -23,8 +23,16 @@ The following steps make up the whole system :
 3] Using the VGG16 pre-trained Neural Network to do image comparison and then applying the Eucledian distance method. <br/>
 4] Finally merging all the above methods and giving weights to all of the above methods and finding the best solution.
 
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-+ kskbf
+```python
+from PIL import Image
+import requests
+from io import BytesIO
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import warnings
+from bs4 import BeautifulSoup
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import nltk
 ```
