@@ -351,7 +351,8 @@ The course didn't go deep into SVM's but I hope to learn it from the Math of Int
 
 #100DaysofMLCode
 
-```
-This is sample code
-```
+## DAY 41 :
+ The best way to learn something is to express it in an understandable way.
+
+Working on a blog that will explain the T-Shirt Recommendation system. I hope to complete it as soon as possible. But till then you can check the code I have updated on my GitHub. You will find the link to my github [here](https://github.com/TanayY/100DaysofMLCode).
 
