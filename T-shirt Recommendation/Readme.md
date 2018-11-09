@@ -122,7 +122,7 @@ Following are some utility functions used to plot graphs and images : <br/>
 #### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
 
 ```python
-# Utility Functions which we will use through the rest of the workshop.
+# Utility Functions 
 
 
 #Display an image
@@ -130,7 +130,7 @@ def display_img(url,ax,fig):
     # we get the url of the apparel and download it
     response = requests.get(url)
     img = Image.open(BytesIO(response.content))
-    # we will display it in notebook 
+    # we will display it 
     plt.imshow(img)
   
 #plotting code to understand the algorithm's decision.
