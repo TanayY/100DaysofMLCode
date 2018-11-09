@@ -8,17 +8,17 @@ The course is awesome and it takes you from the basic concepts like Linear Algeb
 
 The basic libraries used in making of this system are :
 
-1] scikit learn\
-2] pandas\
-3] numpy\
-4] matplotlib\
+1] scikit learn <br/>
+2] pandas <br/>
+3] numpy <br/>
+4] matplotlib <br/>
 5] keras
 
 The following steps make up the whole system :
 
-1] Creating a bag of words and finding Euledian Distance between every title\
-2] Creating a TF-IDF system and then finding Eucledian Distance between every title\
-3] Using the VGG16 pre-trained Neural Network to do image comparison and then applying the Eucledian distance method.\
+1] Creating a bag of words and finding Euledian Distance between every title <br/>
+2] Creating a TF-IDF system and then finding Eucledian Distance between every title <br/>
+3] Using the VGG16 pre-trained Neural Network to do image comparison and then applying the Eucledian distance method. <br/>
 4] Finally merging all the above methods and giving weights to all of the above methods and finding the best solution.
 
 ```diff
