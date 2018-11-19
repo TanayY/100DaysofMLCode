@@ -356,3 +356,68 @@ The course didn't go deep into SVM's but I hope to learn it from the Math of Int
 
 Working on a blog that will explain the T-Shirt Recommendation system. I hope to complete it as soon as possible. But till then you can check the code I have updated on my GitHub. You will find the link to my github [here](https://github.com/TanayY/100DaysofMLCode).
 
+## DAY 42 :
+Did research for my blog and updated it further.
+
+## DAY 43 :
+Read about the markdown language that is used for the GitHub readme file. Made little changes to the blog.
+
+## DAY 44 :
+Found out that @udacity 's Intro to ML course Lesson 15 is related to Bag of Words and TF-IDF, which are text frequency counting concepts. These concepts will help me on the blog. Though I have learnt about these concepts before, the lesson will give me a revision so that I can explain it clearly on my blog.
+
+I am now thinking about completing udacity's course and then working on the blog. So the blog might take time.
+
+Going a little slow this week due to exams.
+
+## DAY 45 :
+Read about the concept of TF-IDF and how to apply it using scikit-learn library in python.
+
+## DAY 46 :
+Read a paper named "A Few useful things to know about Machine Learning" by Pedro Domingos. The paper focuses on some very useful things that can be used to produce better Machine Learning Algorithms.
+
+Some main points to remember from the paper are :
+
+1. Learning = Representation+Evaluation+Optimisation
+
+2. Generalization is important.
+
+3. Data alone is not enough. 
+4. More data --> Cleverer Algorithm.
+
+5. Intuition fails in higher dimensions.
+
+6. Feature engineering is the key to solve the problem.
+
+7. Learn many models.
+
+8. Simplicity does not imply accuracy.
+
+9. Correlation is not the same as causation.
+
+Find the paper here :
+
+https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf
+
+A brief summary of the paper is on this medium article :
+
+https://medium.com/@rupak.thakur/23-deep-learning-papers-to-get-you-started-part-1-308f80d7bba2
+
+
+## DAY 47 :
+Did a project on my own today. I got a dataset of wine contents from kaggle. I divided the data into features and labels. Then I splitted it into training and testing data.
+
+Then applied SVM (Support Vector Machine Classifier), SVC to be specific, using scikit-learn. I got an accuracy of 60%. 60% wasn't good enough, but I think it's great for me on my first self project. I will have to try alternative methods other than SVM to get a higher accuracy.
+
+I did this whole thing on my own, without following any tutorial or video and I think it was really great.
+
+Find the code on my GitHub (link in Bio). Any suggestions as to how to improve the accuracy will be really great.
+
+## DAY 48 :
+Today I made a human activity prediction system, which predicts if a person is standing, walking, sleeping,etc. based on the data from a mobile phones sensors
+
+I got the data from @kaggleofficial .
+The data set contains all of the data from mobiles sensors as its features and the activity as its label.
+
+I used support vector machines to predict the activity and got an accuracy of 93%, which I think is pretty cool.
+
+Go check out the code on my GitHub.(Link above). 
