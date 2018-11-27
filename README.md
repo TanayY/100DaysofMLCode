@@ -421,3 +421,59 @@ The data set contains all of the data from mobiles sensors as its features and t
 I used support vector machines to predict the activity and got an accuracy of 93%, which I think is pretty cool.
 
 Go check out the code on my GitHub.(Link above). 
+
+
+## DAY 49 :
+Revision. Couldn't find much time due to exams, so I did a bit of revision on the concept of Naive Bayes and Decision Trees.
+
+## DAY 50 :
+Made a BMI Prediction System from scratch. Got a dataset online containing the height and weight of a person as features and the BMI as a label.
+Made my model using SVM and using the kernel as 'linear'. Got an accuracy of 93 to 94% 😀😀😎. The past 50 days were fun and I got to learn a lot of new things. Hope to do the next 50 with the same enthusiasm.
+
+## DAY 51 :
+Attended the Chennai School of AI's second meet-up. Had a great time at Crayon Data discussing about LSTM's, multi-label classification and Conversational AI. The speakers were inspirational and got to learn a lot from them.
+
+Learnt how LSTM's are capable of storing data so that they can learn from past outputs. 
+Learnt about how we can predict multiple labels for a given problem.
+
+Also learnt the flow of conversational AI and how to implement it using RASA-NLU.
+
+I hope that this community goes on inspiring everyone so that we can make this world a better place to live in.
+
+Thanks to @sirajraval & @schoolofaioffic .
+
+## DAY 52 :
+Today I read a blog named "Visual Introduction to Machine Learning". The blog basically describes how to solve a problem of distinguishing homes in New York from homes in San Fransisco.
+
+First step is to classify all the data points that are needed. Like the elevation of the house, the price, etc. 
+Then drawing boundaries to create a model using Decision Trees🌲. Decision trees normally use if else statements to define patterns in data. These if else statements are called as forks. These forks splits data into two branches. The value between these branches is called split point.
+
+Split points basically create a boundary. Not all these split points create a perfect boundary. So we need to find the best split that predicts the answer correctly. We use recursion do so. This helps find the best split point to create a near to perfect boundary. 
+Finally we find the accuracy. Accuracy on the the training data will be 100% but on the testing data it might be low due to overfitting.
+
+Link to the blog is :
+
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+
+## DAY 53 :
+ Machine Learning models can make mistakes if the patterns are overly simple or overly complex. These models can be adjusted to fit the data.
+
+The simplest version of a decision tree is called a stump. This type of version is prone to errors due to bias. This model with too much bias ignores relevant details. 
+To decrease these errors we increase the number of split points. That is more features. This allows the decision tree to take into account more complexity.
+
+But too much complexity might cause overfitting. Which is another problem. One way to address errors from overfitting is to impose limits. 
+The accuracy of each tree improves as errors due to variance decrease. As the minimum node size threshold continues to increase, the accuracy begins to deteriorate from error due to bias.
+
+Therefore understanding the trade-off between bias and variance is important while making your Machine Learning Model.
+
+Link to the blog :
+
+http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
+
+## DAY 54 :
+Still working on the blog 
+Now that the vacations are up, I aim to complete it by the 30th.
+
+Also I hope to make much more progress than the last half of the Challenge.
+
+
