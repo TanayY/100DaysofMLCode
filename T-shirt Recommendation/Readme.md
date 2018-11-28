@@ -312,3 +312,18 @@ In this type of representation, the less the frquency of the word occuring in th
 
 IDF is given by :
 <p align="middle"><img src="idf2.png" width="400px"/></p>
+
+## TF-IDF :
+
+TF-IDF of a word is the frequency of a particular word claculated using both the TF and the IDF methods.
+
+The formula for Calculating the TF-IDF of a particular word is :
+
+<p align="middle"><img src="tfidf.png" width="400px"/></p>
+
+Here :
+
+W = The word whose TF-IDF we want to calculate.
+T = The length of the Text in which the word is present.
+D = The length of the whole Document Corpus.
+
