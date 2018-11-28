@@ -302,7 +302,7 @@ The number of times a particualr word (term) occurs in a text or sentence is cal
 The term frequency increases as the frequency of the word in the document increases and decreases with the increase in the size of the document.
 
 The Term Frequency (TF) can be given as follows :
-<p align="middle"><img src="tf2.png" width="900px"/></p>
+<p align="middle"><img src="tf2.png" width="400px"/></p>
 
 ## Inverse Document Frequency (IDF) :
 
