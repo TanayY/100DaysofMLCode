@@ -214,4 +214,4 @@ tfidf_model(12566, 20)
 
 #### Thank You for referencing my blog. Contact me for any issues on --> yeole.tanay212@gmail.com
 
-## <h3 align="middle"> THANK YOU </h3>
+<p align="middle"> THANK YOU </p>
