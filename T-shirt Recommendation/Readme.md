@@ -23,6 +23,8 @@ The following steps make up the whole system :
 3] Using the VGG16 pre-trained Neural Network to do image comparison and then applying the Eucledian distance method. <br/>
 4] Finally merging all the above methods and giving weights to all of the above methods and finding the best solution.
 
+
+<p align="middle"><img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK25/IMG890.GIF" alt="drawing" width="200" align="middle"/></p>
 ### Importing all the libraries needed :
 
 ```python
@@ -251,7 +253,7 @@ def get_result(doc_id, content_a, content_b, url, model):
 
 Bag of Words is a way of representing data. It is used in Natural Language Processing and Information Retrieval. In this method a large document or even a short sentence can be represented as a multiset. This data can be considered to be the contents of a bag, hence the term "BAG OF WORDS".
 
-<p><img src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/88283dff7477ce64a8aa78cf207470ee/3a34c76c-0053-4cd4-b5f7-97bd423eb8e2_rw_1200.gif?h=4fa0a1aebeb95a1640da66871a114d4b" alt="drawing" width="200" align="middle"/></p>
+<p align="middle"><img src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/88283dff7477ce64a8aa78cf207470ee/3a34c76c-0053-4cd4-b5f7-97bd423eb8e2_rw_1200.gif?h=4fa0a1aebeb95a1640da66871a114d4b" alt="drawing" width="200" align="middle"/></p>
 
 
 So what we do now is convert all of the titles available with us into a n-dimensional set which is the bag of words. The bag of words that we create will contain all unique words from all titles.
