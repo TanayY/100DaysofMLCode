@@ -65,8 +65,8 @@ We do all of this data formatting and preprocessing using the **pandas** library
 
 The first step is to get the data of T-shirts and storing it into a pandas data-frame.<br/>
 We get this data from Amazon's API Service.<br/>
-You can get the data file by clicking on this [link](https://drive.google.com/file/d/0BwNkduBnePt2LTRsVEg1WjJiSFk/view?usp=sharing).<br/>
-It is a json file and you can store it in a data-framw using the following code :
+You can get the data file by clicking on this [link](https://drive.google.com/file/d/0BwNkduBnePt2LTRsVEg1WjJiSFk/view?usp=sharing).<br/
+It is a json file and you can store it in a data-frame using the following code :
 
 ```python
 
@@ -111,7 +111,7 @@ Now we are good to go.
 
 ### Similarity based on Text Comparison :
 
-The first thing is to storing the preprocessed data in a pandas data-frame :
+The first thing is storing the preprocessed data in a pandas data-frame :
 
 ```python
 data = pd.read_pickle('pickels/16k_apperal_data_preprocessed')
@@ -247,3 +247,11 @@ def get_result(doc_id, content_a, content_b, url, model):
 
 #### Note --> The blog will not explain these utility functions as they are not related to any ML Concepts.
 
+## BAG OF WORDS (BoW):
+
+Bag of Words is a way of representing data. It is used in Natural Language Processing and Information Retrieval. In this method a large document or even a short sentence can be represented as a multiset. This data can be considered to be the contents of a bag, hence the term "BAG OF WORDS".
+
+<p><img src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/88283dff7477ce64a8aa78cf207470ee/3a34c76c-0053-4cd4-b5f7-97bd423eb8e2_rw_1200.gif?h=4fa0a1aebeb95a1640da66871a114d4b" alt="drawing" width="200" align="middle"/></p>
+
+
+So what we do now is convert all of the titles available with us into a n-dimensional set which is the bag of words. The bag of words that we create will contain all unique words from all titles.
