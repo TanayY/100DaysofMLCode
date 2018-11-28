@@ -297,9 +297,18 @@ bag_of_words_model(12566, 20) # change the index if you want to.
 
 ## Term Frequency (TF) :
 
-The number of times a particualr word(term) occurs in a text or sentence is called as the **Term Frequency**. This type of representation tells us how important a word is in a document. It is normally used as a weighing factor, that is, it gives weight to a particular word.
+The number of times a particualr word (term) occurs in a text or sentence is called as the **Term Frequency**. This type of representation tells us how important a word is in a document. It is normally used as a weighing factor, that is, it gives weight to a particular word.
 
 The term frequency increases as the frequency of the word in the document increases and decreases with the increase in the size of the document.
 
 The Term Frequency (TF) can be given as follows :
-<p align="middle"><img src="tf.png" width="200px"/></p>
+<p align="middle"><img src="tf.png" width="900px"/></p>
+
+## Inverse Document Frequency (IDF) :
+
+This is also a method of measuring the frequency of a word but is a little different from Term Frequency (TF). Instead of taking the word and the document into consideration, IDF takes the word and the whole Document Corpus (collection of all documents).
+
+In this type of representation, the less the frquency of the word occuring in the corpus, the more will be the value of IDF.
+
+IDF is given by :
+<p align="middle"><img src="idf.png" width="200px"/></p>
