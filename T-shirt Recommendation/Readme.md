@@ -110,7 +110,6 @@ def bag_of_words_model(doc_id, num_results):
     # doc_id: apparel's id in given corpus
     
     # pairwise_dist will store the distance from given input apparel to all remaining apparels
-    # the metric we used here is cosine, the coside distance is mesured as K(X, Y) = <X, Y> / (||X||*||Y||)
     # http://scikit-learn.org/stable/modules/metrics.html#cosine-similarity
     pairwise_dist = pairwise_distances(title_features,title_features[doc_id])
     
@@ -131,14 +130,10 @@ def bag_of_words_model(doc_id, num_results):
         print ('Euclidean similarity with the query image :', pdists[i])
         print('='*60)
 
-#call the bag-of-words model for a product to get similar products.
-bag_of_words_model(12566, 20) # change the index if you want to.
-# In the output heat map each value represents the count value 
-# of the label word, the color represents the intersection 
-# with inputs title.
 
-#try 12566
-#try 931
+bag_of_words_model(12566, 20) 
+
+
 ```
 
 ### Term Frequency (TF) :
@@ -189,7 +184,6 @@ def tfidf_model(doc_id, num_results):
     # doc_id: apparel's id in given corpus
     
     # pairwise_dist will store the distance from given input apparel to all remaining apparels
-    # the metric we used here is cosine, the coside distance is mesured as K(X, Y) = <X, Y> / (||X||*||Y||)
     # http://scikit-learn.org/stable/modules/metrics.html#cosine-similarity
     pairwise_dist = pairwise_distances(tfidf_title_features,tfidf_title_features[doc_id])
 
@@ -202,7 +196,6 @@ def tfidf_model(doc_id, num_results):
     df_indices = list(data.index[indices])
 
     for i in range(0,len(indices)):
-        # we will pass 1. doc_id, 2. title1, 3. title2, url, model
         get_result(indices[i], data['title'].loc[df_indices[0]], data['title'].loc[df_indices[i]], data['medium_image_url'].loc[df_indices[i]], 'tfidf')
         print('ASIN :',data['asin'].loc[df_indices[i]])
         print('BRAND :',data['brand'].loc[df_indices[i]])
