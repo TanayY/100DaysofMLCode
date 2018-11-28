@@ -257,3 +257,49 @@ Bag of Words is a way of representing data. It is used in Natural Language Proce
 
 
 So what we do now is convert all of the titles available with us into a n-dimensional set which is the bag of words. The bag of words that we create will contain all unique words from all titles.
+
+#### The following Code Creates the bag of words model.
+```python
+def bag_of_words_model(doc_id, num_results):
+    # doc_id: apparel's id in given corpus
+    
+    # pairwise_dist will store the distance from given input apparel to all remaining apparels
+    # the metric we used here is cosine, the coside distance is mesured as K(X, Y) = <X, Y> / (||X||*||Y||)
+    # http://scikit-learn.org/stable/modules/metrics.html#cosine-similarity
+    pairwise_dist = pairwise_distances(title_features,title_features[doc_id])
+    
+    # np.argsort will return indices of the smallest distances
+    indices = np.argsort(pairwise_dist.flatten())[0:num_results]
+    #pdists will store the smallest distances
+    pdists  = np.sort(pairwise_dist.flatten())[0:num_results]
+
+    #data frame indices of the 9 smallest distace's
+    df_indices = list(data.index[indices])
+    
+    for i in range(0,len(indices)):
+        # we will pass 1. doc_id, 2. title1, 3. title2, url, model
+        get_result(indices[i],data['title'].loc[df_indices[0]], data['title'].loc[df_indices[i]], data['medium_image_url'].loc[df_indices[i]], 'bag_of_words')
+        print('ASIN :',data['asin'].loc[df_indices[i]])
+        print ('Brand:', data['brand'].loc[df_indices[i]])
+        print ('Title:', data['title'].loc[df_indices[i]])
+        print ('Euclidean similarity with the query image :', pdists[i])
+        print('='*60)
+
+#call the bag-of-words model for a product to get similar products.
+bag_of_words_model(12566, 20) # change the index if you want to.
+# In the output heat map each value represents the count value 
+# of the label word, the color represents the intersection 
+# with inputs title.
+
+#try 12566
+#try 931
+```
+
+## Term Frequency (TF) :
+
+The number of times a particualr word(term) occurs in a text or sentence is called as the **Term Frequency**. This type of representation tells us how important a word is in a document. It is normally used as a weighing factor, that is, it gives weight to a particular word.
+
+The term frequency increases as the frequency of the word in the document increases and decreases with the increase in the size of the document.
+
+The Term Frequency (TF) can be given as follows :
+<p align="middle"><img src="tf.png" width="200px"/></p>
