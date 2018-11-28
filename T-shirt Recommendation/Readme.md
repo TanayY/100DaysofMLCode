@@ -1,5 +1,7 @@
 # T-Shirt Recommendation System
 
+### [Find the whole code [here](https://github.com/TanayY/100DaysofMLCode/blob/master/T-shirt%20Recommendation/AppliedAIWorkshop.ipynb). Download the file as it is huge to load]
+
 In this blog I will take you through some important concepts on which the whole T-shirt Recommendation System is built.
 
 I learnt to make this system back in summer by following the Introductory course by [Applied AI Course](https://www.appliedaicourse.com/)
