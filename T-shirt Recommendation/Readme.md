@@ -311,4 +311,4 @@ This is also a method of measuring the frequency of a word but is a little diffe
 In this type of representation, the less the frquency of the word occuring in the corpus, the more will be the value of IDF.
 
 IDF is given by :
-<p align="middle"><img src="idf.png" width="200px"/></p>
+<p align="middle"><img src="idf2.png" width="200px"/></p>
