@@ -493,3 +493,9 @@ In decision trees I went a little deep into knowing terms like entropy and infor
 Ensemble methods like AdaBoost and Random Forests allow you two combine all weak classifiers to make one strong classifier. That is why they are known as ensemble methods.
 
 I implemented decision trees on a data of emails and AdaBoost and Random Forests on a terrian data provided by @udacity .
+
+
+## DAY 58 :
+Completed the Datasets and Questions lesson on Udacity's Intro to ML course.
+
+Played with the Enron Dataset and answered lots of questions related to it. It was great as it taught what data might be useful and what data might not be. It also showed how More Data is much important than fine tuned algorithms.
