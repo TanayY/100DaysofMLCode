@@ -476,4 +476,20 @@ Now that the vacations are up, I aim to complete it by the 30th.
 
 Also I hope to make much more progress than the last half of the Challenge.
 
+## DAY 55 :
+Finally the blog is up. Click [here](https://tanayy.github.io/100DaysofMLCode/T-shirt%20Recommendation/) to go to the blog.
+It will be great to hear from all the #wizards out ther. I cover topics like Bag of Words and TF-IDF in the blog. I used these concepts when I was learning to make the T-shirt Recommendation System.
 
+You can find the whole code of the T-shirt Recommendation on my [GitHub](https://github.com/TanayY/100DaysofMLCode/tree/master/T-shirt%20Recommendation).
+
+I hope this is useful.
+
+## DAY 56 and 57 :
+Worked for 6 hrs today to make up for the time that I have lost. Completed all of Decision Trees from @udacity . 
+Also learnt about ensemble algorithms --> AdaBoost and Random Forests. Another collection to my supervised learning tools.
+
+In decision trees I went a little deep into knowing terms like entropy and information gain. Basically information gain and entropy can help you find the best feature to use in a decision tree so as to know how every node in a decision tree should be divided.
+
+Ensemble methods like AdaBoost and Random Forests allow you two combine all weak classifiers to make one strong classifier. That is why they are known as ensemble methods.
+
+I implemented decision trees on a data of emails and AdaBoost and Random Forests on a terrian data provided by @udacity .
