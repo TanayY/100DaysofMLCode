@@ -499,3 +499,37 @@ I implemented decision trees on a data of emails and AdaBoost and Random Forests
 Completed the Datasets and Questions lesson on Udacity's Intro to ML course.
 
 Played with the Enron Dataset and answered lots of questions related to it. It was great as it taught what data might be useful and what data might not be. It also showed how More Data is much important than fine tuned algorithms.
+
+## DAY 59 :
+Started with the next chapter on Udacity's Intro to ML Course. The chapter is all about regression and I am halfway through it.
+
+Regression is basically a type of Continous Supervised Learning technique unlike Classification, which is a Discrete Supervised Learning Technique. 
+
+Regression is used when the output is not binary. It is used when the output is continous. Regression can be used fro predicting values like salary, net worth, height, weight. While Classification can be used when you need to predict if the speed is slow or fast. To know the exact speed ina a given unit like mph, you use Regression.
+
+Linear Regression is based on the simple formula y=mx+c . Where y is the output to be predicted and m is a coefficient, c the intercept and X is the input.
+
+The error in Regression, unlike Classification is found using The Summation of All Squared Values of errors. Where the errors can be defined as (Actual Value - Predicted Value). To lower this error we can use two techniques, one is OLS (built in with scikit-learn) and Gradient Descent.
+
+
+## DAY 60 : 
+Done with Regression and its mini project on @udacity 's Intro to ML Course.
+
+Learnt how to apply R-squared using sklearn. Also learnt about multi-variate regression where there are more than variables as input for a target output. Where the value of m is different for every X(input). Finally did the mini project on the Enron dataset.
+
+## DAY 61 : 
+Halfway through the lesson on Outliers. @udacity 's course on Intro to ML teaches outliers in a very interesting way. It explains how to find them and remove them.
+
+They have a very interesting and challenging mini project on outliers.
+
+Outliers mainly occur due to :
+
+1) Sensor Malfunction
+2) Data entry errors 
+3) Freak event
+
+How to remove them :
+
+1) Train
+2) Remove points with largest residual error.
+3) Re-Train
