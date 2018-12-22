@@ -726,3 +726,13 @@ M --> Modelling the data
 N --> INterpreting the data
 
 Also learnt about pair plots in seaborn
+
+## DAY 87-90 :
+
+Learnt about :
+
+1. Pearson's Correlation Coefficient.
+2. Skewed Distribution 
+3. Log Transformation
+
+Also I started analysing another kaggle challenge.
