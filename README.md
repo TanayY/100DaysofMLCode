@@ -543,7 +543,7 @@ https://www.naftaliharris.com/blog/visualizing-k-means-clustering/
 Got a hands-on experience with using sklearn for K-Means.
 
 ## DAY 65-66 :
-<p align="middle"><img src="fs.png" alt="drawing" width="200" align="middle"/></p>
+<p align="middle"><img src="fs.PNG" alt="drawing" width="200" align="middle"/></p>
 Started with Feature Scaling on Day 65. Learnt about why feature scaling is important and the simple formula for it. Also learnt where Feature Scaling is necessary. The picture above gives a brief idea about feature scaling.
 🔝🔝🔝🔝🔝🔝
 On Day 66, I completed the mini-project for feature scaling on @udacity 's course on Intro to ML.
