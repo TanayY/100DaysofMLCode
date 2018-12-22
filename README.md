@@ -522,6 +522,33 @@ Halfway through the lesson on Outliers. @udacity 's course on Intro to ML teache
 
 They have a very interesting and challenging mini project on outliers.
 
+## DAY 62 :
+Still stuck on outliers.... #100DaysofMLCode
+
+## DAY 63 :
+ Finally started with unsupervised Learning. Unlike Supervised learning, Unsupervised learning does not have labels to its data.
+
+Clustering is a type of Unsupervised Learning, where the algorithm creates clusters of data points and divides it into different classes.
+
+A famous Clustering Algorithm is the K-Means Algorithm. K-Means works on two very important fuctions
+
+1) The Assign Function
+2) The Optimise Function
+
+## DAY 64 :
+Done with clustering on @udacity 's course on Intro to ML. Completed the mini project on Clustering and got to know about this visual blog on Clustering :
+
+https://www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+Got a hands-on experience with using sklearn for K-Means.
+
+## DAY 65-66 :
+<p align="middle"><img src="fs.png" alt="drawing" width="200" align="middle"/></p>
+Started with Feature Scaling on Day 65. Learnt about why feature scaling is important and the simple formula for it. Also learnt where Feature Scaling is necessary. The picture above gives a brief idea about feature scaling.
+🔝🔝🔝🔝🔝🔝
+On Day 66, I completed the mini-project for feature scaling on @udacity 's course on Intro to ML.
+
+
 Outliers mainly occur due to :
 
 1) Sensor Malfunction
@@ -533,3 +560,169 @@ How to remove them :
 1) Train
 2) Remove points with largest residual error.
 3) Re-Train
+
+## DAY 67 :
+Trying to get a Sneak-peek of the free online book "Machine Learning Yearning" by "Andrew NG". The book basically focuses on creating different strategies for a Machine Learning problem. It goes through various chapters that can help you solve a difficult Machine Learning problem.
+
+You can subscribe to the book for free on :
+
+mlyearning.org
+
+## DAY 68 :
+Revising what I have learnt till now on @udacity .
+
+## DAY 69 :
+Day 69 : The Math of Neural Nets.... 
+
+## DAY 70-71 :
+Completed the lesson on @udacity about PCA (Principal Component Analysis), which is basically a dimensionality reduction technique.
+
+## DAY 72 :
+Analysed a Kaggle Kernel for Beginners. The kernel is based on house price prediction system and takes you from Data Collection to Prediction.
+
+It is very well formatted and has important points described in it that Machine Learning beginners can follow. The link to the blog is :
+
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+
+I recommend #wizards who are beginners and have completed a proper Machine Learning course to analyse this Kernel.
+
+## DAY 73 :
+One of the most important questions to ask as a Machine learning engineer when evaluating a model is how to judge the model that you have created. 
+Each Machine Learning Model is trying to solve a problem with a different objective using a different dataset and hence, it is important to understand the context before choosing a metric.
+
+The above diagram will help you understand what metric to choose when evaluating your model.
+
+## DAY 74 :
+Did a revision of SVMs. Read a blog about it .... #100DaysofMLCode
+
+## DAY 75 :
+Again going through another Kaggle Kernel.
+
+I was curious how the Standard Scaler function in sklearn did feature scaling. So I did a bit of research on it.
+
+Swipe the images to know more about StandardScaler.
+
+## DAY 76 :
+Learnt about how the skew function works in the scipy.stats library.
+
+Did this before going ahead with the Kaggle Kernel.
+
+Swipe the pictures to know more about the library function.
+
+## DAY 77 :
+Got a revision of Naive Bayes.
+Read a blog which explains how Naive Bayes can be used to solve the famous Titanic Dataset. Where the information of every passenger is given and we have to predict if a particular passenger will survive in the disaster or not.
+
+The blog describes it in a very awesome format.
+
+The Naive Bayes algorithm works on the principle of Conditional probability.
+
+There are three models available in he sklearn library for Naive Bayes. You can see them in the pics above 🔝🔝🔝. There are some pros and cons of the Naive Bayes algorithm :
+
+PROS :
+- Computationally fast - Simple to implement - Works well with small datasets - Works well with high dimensions - Performs well even if the Naive Assumption is not perfectly met. In many cases, the approximation is enough to build a good classifier.
+
+CONS :
+- Require to remove correlated features because they are voted twice in the model and it can lead to over inflating importance - If a categorical variable has a category in test data set which was not observed in training data set, then the model will assign a zero probability. It will not be able to make a prediction. This is often known as "Zero Frequency". To solve this, we can use the smoothing technique One of the simplest smoothing techniques is called Laplace estimation. Sklearn applies Laplace smoothing by default when you train a Naive Bayes classifier.
+
+## DAY 78-79 :
+Did some research on how speech recognition systems work.
+
+To make a speech recognition system from scratch you will need lots and lots of data. Which is very hard to do.
+
+Also did some revision on clustering.
+
+## DAY 80 :
+Learning how to make a linear regression algorithm from scratch.
+
+Learnt some new terms :
+
+Mean :
+
+mean(x) = sum(x) / count(x)
+
+Variance :
+
+The variance is the sum squared difference for each value from the mean value.
+
+variance = sum( (x - mean(x))^2 )
+
+Co-Variance :
+
+Covariance is a generalization of correlation. Correlation describes the relationship between two groups of numbers, whereas covariance can describe the relationship between two or more groups of numbers.
+
+covariance = sum((x(i) - mean(x)) * (y(i) - mean(y)))
+
+## DAY 81 :
+Coded a linear regression algorithm from scratch.
+
+These are the following steps involved in making a linear regression algorithm :
+
+1) Load dataset
+2) Creating function for root mean squared error
+3) Making the linear regression algorithm function
+4) Making functions to calculate mean, variance, covariance.
+5) Making function to calculate coefficients.
+6) Finally running the algorithm.
+
+## DAY 82 :
+Today was Day 1 of the AI Summit at @techfest_iitbombay
+
+First there were two keynotes :
+
+1) On AI in Asset Management .
+
+2) On Voice Intelligence 
+Learnt how AI can be used for Asset Management. What is important in the field such as Asset Management is the Training speed. The training speed matters as the data Continously changes and the new data needs to be trained again.
+
+Then I learnt about Voice Intelligence and what problems can occur while making a Voice Assistant.
+
+Then there was a panel session on Digital Marketing and AI.
+
+After that there was a workshop by @samsungindia on how it's personal assistant Bixby works in the background. Not exactly how it works but a brief overview of it.
+
+Got to know about the fundamental equation of Automatic Speech Recognition (ASR) Systems.
+
+There are three components of ASR :
+
+1) Acoustic Model
+2) Language Model
+3) Decoder
+
+## DAY 83 :
+Attended the Day 2 of the AI Summit @techfest_iitbombay .
+
+Got an idea of how Amazon's Alexa works inside. 
+Also got to know how AI can be applied to health care systems.
+
+Learnt what things to take care of before deploying your AI system.
+
+These are the following points :
+
+1) Difference between Consumer AI and Enterprise AI. Consumer AI has cleaner data and less penalty for failure. While Enterprise AI is more sophisticated and has higher stakes.
+
+2) UI can be used to camouflage ML shortcomings. It can tell you the confidence level of an AI system.
+
+3) Cost of data :
+
+Obvious --> Storage cost and Processing and Maintanence 
+Institutional --> Regulatory Compliance and customer trust.
+
+4) Model Maintanence : - Quick fixes - Cascading effects - Systematic involvement.
+
+## DAY 84-86 :
+Started with analysing another Kaggle Kernel, which focuses on a Step by Step method to classify diabetes using LNN.
+
+Then read about a very OSEMN method to create a Machine Learning pipeline.
+
+The method is OSEMN :
+
+Meaning :
+
+O --> Obtaining Data
+S --> Scrubbing / Cleaning data
+E --> Exploring and Visualising data
+M --> Modelling the data
+N --> INterpreting the data
+
+Also learnt about pair plots in seaborn
